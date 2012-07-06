@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A962234314F77ABE001BA985 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A962234214F77ABE001BA985 /* SenTestingKit.framework */; };
+		A962234614F77ABE001BA985 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D870E114E3013C00492565 /* Foundation.framework */; };
+		A962234C14F77ABE001BA985 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A962234A14F77ABE001BA985 /* InfoPlist.strings */; };
+		A962234F14F77ABE001BA985 /* AtomParserTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A962234E14F77ABE001BA985 /* AtomParserTests.m */; };
+		A962235514F77D9B001BA985 /* libAtomParser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D870DE14E3013C00492565 /* libAtomParser.a */; };
+		A9D870E214E3013C00492565 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9D870E114E3013C00492565 /* Foundation.framework */; };
+		A9D8710C14E301AE00492565 /* CXMLDocument_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870F014E301AE00492565 /* CXMLDocument_CreationExtensions.h */; };
+		A9D8710D14E301AE00492565 /* CXMLDocument_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870F114E301AE00492565 /* CXMLDocument_CreationExtensions.m */; };
+		A9D8710E14E301AE00492565 /* CXMLNode_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870F214E301AE00492565 /* CXMLNode_CreationExtensions.h */; };
+		A9D8710F14E301AE00492565 /* CXMLNode_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870F314E301AE00492565 /* CXMLNode_CreationExtensions.m */; };
+		A9D8711014E301AE00492565 /* CXHTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870F414E301AE00492565 /* CXHTMLDocument.h */; };
+		A9D8711114E301AE00492565 /* CXHTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870F514E301AE00492565 /* CXHTMLDocument.m */; };
+		A9D8711214E301AE00492565 /* CXMLDocument_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870F614E301AE00492565 /* CXMLDocument_PrivateExtensions.h */; };
+		A9D8711314E301AE00492565 /* CXMLDocument_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870F714E301AE00492565 /* CXMLDocument_PrivateExtensions.m */; };
+		A9D8711414E301AE00492565 /* CXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870F814E301AE00492565 /* CXMLDocument.h */; };
+		A9D8711514E301AE00492565 /* CXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870F914E301AE00492565 /* CXMLDocument.m */; };
+		A9D8711614E301AE00492565 /* CXMLElement_CreationExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870FA14E301AE00492565 /* CXMLElement_CreationExtensions.h */; };
+		A9D8711714E301AE00492565 /* CXMLElement_CreationExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870FB14E301AE00492565 /* CXMLElement_CreationExtensions.m */; };
+		A9D8711814E301AE00492565 /* CXMLElement_ElementTreeExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870FC14E301AE00492565 /* CXMLElement_ElementTreeExtensions.h */; };
+		A9D8711914E301AE00492565 /* CXMLElement_ElementTreeExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870FD14E301AE00492565 /* CXMLElement_ElementTreeExtensions.m */; };
+		A9D8711A14E301AE00492565 /* CXMLElement.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D870FE14E301AE00492565 /* CXMLElement.h */; };
+		A9D8711B14E301AE00492565 /* CXMLElement.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D870FF14E301AE00492565 /* CXMLElement.m */; };
+		A9D8711C14E301AE00492565 /* CXMLNamespaceNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8710014E301AE00492565 /* CXMLNamespaceNode.h */; };
+		A9D8711D14E301AE00492565 /* CXMLNamespaceNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8710114E301AE00492565 /* CXMLNamespaceNode.m */; };
+		A9D8711E14E301AE00492565 /* CXMLNode_PrivateExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8710214E301AE00492565 /* CXMLNode_PrivateExtensions.h */; };
+		A9D8711F14E301AE00492565 /* CXMLNode_PrivateExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8710314E301AE00492565 /* CXMLNode_PrivateExtensions.m */; };
+		A9D8712014E301AE00492565 /* CXMLNode_XPathExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8710414E301AE00492565 /* CXMLNode_XPathExtensions.h */; };
+		A9D8712114E301AE00492565 /* CXMLNode_XPathExtensions.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8710514E301AE00492565 /* CXMLNode_XPathExtensions.m */; };
+		A9D8712214E301AE00492565 /* CXMLNode.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8710614E301AE00492565 /* CXMLNode.h */; };
+		A9D8712314E301AE00492565 /* CXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8710714E301AE00492565 /* CXMLNode.m */; };
+		A9D8712414E301AE00492565 /* CTidy.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8710914E301AE00492565 /* CTidy.h */; };
+		A9D8712514E301AE00492565 /* CTidy.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8710A14E301AE00492565 /* CTidy.m */; };
+		A9D8712614E301AE00492565 /* TouchXML.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8710B14E301AE00492565 /* TouchXML.h */; };
+		A9D8712E14E3053400492565 /* Feed.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8712C14E3053400492565 /* Feed.h */; };
+		A9D8712F14E3053400492565 /* Feed.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8712D14E3053400492565 /* Feed.m */; };
+		A9D8713214E3071C00492565 /* Text.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8713014E3071C00492565 /* Text.h */; };
+		A9D8713314E3071C00492565 /* Text.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8713114E3071C00492565 /* Text.m */; };
+		A9D8713614E3076800492565 /* Generator.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8713414E3076800492565 /* Generator.h */; };
+		A9D8713714E3076800492565 /* Generator.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8713514E3076800492565 /* Generator.m */; };
+		A9D8713A14E307A000492565 /* Category.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8713814E307A000492565 /* Category.h */; };
+		A9D8713B14E307A000492565 /* Category.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8713914E307A000492565 /* Category.m */; };
+		A9D8713E14E307C100492565 /* Content.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8713C14E307C100492565 /* Content.h */; };
+		A9D8713F14E307C100492565 /* Content.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8713D14E307C100492565 /* Content.m */; };
+		A9D8714214E3087000492565 /* Entry.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8714014E3087000492565 /* Entry.h */; };
+		A9D8714314E3087000492565 /* Entry.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8714114E3087000492565 /* Entry.m */; };
+		A9D8714614E309FA00492565 /* Link.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8714414E309F900492565 /* Link.h */; };
+		A9D8714714E309FA00492565 /* Link.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8714514E309F900492565 /* Link.m */; };
+		A9D8714A14E30A2600492565 /* Person.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8714814E30A2600492565 /* Person.h */; };
+		A9D8714B14E30A2600492565 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8714914E30A2600492565 /* Person.m */; };
+		A9D8715314E3D23000492565 /* AtomDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = A9D8715114E3D23000492565 /* AtomDocument.h */; };
+		A9D8715414E3D23000492565 /* AtomDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8715214E3D23000492565 /* AtomDocument.m */; };
+		A9D8715614E3D2A600492565 /* AtomParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9D8715514E3D2A600492565 /* AtomParser.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A962234114F77ABE001BA985 /* AtomParserTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AtomParserTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A962234214F77ABE001BA985 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		A962234914F77ABE001BA985 /* AtomParserTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AtomParserTests-Info.plist"; sourceTree = "<group>"; };
+		A962234B14F77ABE001BA985 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A962234D14F77ABE001BA985 /* AtomParserTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomParserTests.h; sourceTree = "<group>"; };
+		A962234E14F77ABE001BA985 /* AtomParserTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AtomParserTests.m; sourceTree = "<group>"; };
+		A962235014F77ABE001BA985 /* AtomParserTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtomParserTests-Prefix.pch"; sourceTree = "<group>"; };
+		A9D870DE14E3013C00492565 /* libAtomParser.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAtomParser.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9D870E114E3013C00492565 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9D870E514E3013C00492565 /* AtomParser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AtomParser-Prefix.pch"; sourceTree = "<group>"; };
+		A9D870E614E3013C00492565 /* AtomParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AtomParser.h; sourceTree = "<group>"; };
+		A9D870F014E301AE00492565 /* CXMLDocument_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_CreationExtensions.h; sourceTree = "<group>"; };
+		A9D870F114E301AE00492565 /* CXMLDocument_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_CreationExtensions.m; sourceTree = "<group>"; };
+		A9D870F214E301AE00492565 /* CXMLNode_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_CreationExtensions.h; sourceTree = "<group>"; };
+		A9D870F314E301AE00492565 /* CXMLNode_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_CreationExtensions.m; sourceTree = "<group>"; };
+		A9D870F414E301AE00492565 /* CXHTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXHTMLDocument.h; sourceTree = "<group>"; };
+		A9D870F514E301AE00492565 /* CXHTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXHTMLDocument.m; sourceTree = "<group>"; };
+		A9D870F614E301AE00492565 /* CXMLDocument_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument_PrivateExtensions.h; sourceTree = "<group>"; };
+		A9D870F714E301AE00492565 /* CXMLDocument_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument_PrivateExtensions.m; sourceTree = "<group>"; };
+		A9D870F814E301AE00492565 /* CXMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLDocument.h; sourceTree = "<group>"; };
+		A9D870F914E301AE00492565 /* CXMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLDocument.m; sourceTree = "<group>"; };
+		A9D870FA14E301AE00492565 /* CXMLElement_CreationExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_CreationExtensions.h; sourceTree = "<group>"; };
+		A9D870FB14E301AE00492565 /* CXMLElement_CreationExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_CreationExtensions.m; sourceTree = "<group>"; };
+		A9D870FC14E301AE00492565 /* CXMLElement_ElementTreeExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement_ElementTreeExtensions.h; sourceTree = "<group>"; };
+		A9D870FD14E301AE00492565 /* CXMLElement_ElementTreeExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement_ElementTreeExtensions.m; sourceTree = "<group>"; };
+		A9D870FE14E301AE00492565 /* CXMLElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLElement.h; sourceTree = "<group>"; };
+		A9D870FF14E301AE00492565 /* CXMLElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLElement.m; sourceTree = "<group>"; };
+		A9D8710014E301AE00492565 /* CXMLNamespaceNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNamespaceNode.h; sourceTree = "<group>"; };
+		A9D8710114E301AE00492565 /* CXMLNamespaceNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNamespaceNode.m; sourceTree = "<group>"; };
+		A9D8710214E301AE00492565 /* CXMLNode_PrivateExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_PrivateExtensions.h; sourceTree = "<group>"; };
+		A9D8710314E301AE00492565 /* CXMLNode_PrivateExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_PrivateExtensions.m; sourceTree = "<group>"; };
+		A9D8710414E301AE00492565 /* CXMLNode_XPathExtensions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode_XPathExtensions.h; sourceTree = "<group>"; };
+		A9D8710514E301AE00492565 /* CXMLNode_XPathExtensions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode_XPathExtensions.m; sourceTree = "<group>"; };
+		A9D8710614E301AE00492565 /* CXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CXMLNode.h; sourceTree = "<group>"; };
+		A9D8710714E301AE00492565 /* CXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CXMLNode.m; sourceTree = "<group>"; };
+		A9D8710914E301AE00492565 /* CTidy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTidy.h; sourceTree = "<group>"; };
+		A9D8710A14E301AE00492565 /* CTidy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTidy.m; sourceTree = "<group>"; };
+		A9D8710B14E301AE00492565 /* TouchXML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TouchXML.h; sourceTree = "<group>"; };
+		A9D8712C14E3053400492565 /* Feed.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feed.h; sourceTree = "<group>"; };
+		A9D8712D14E3053400492565 /* Feed.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Feed.m; sourceTree = "<group>"; };
+		A9D8713014E3071C00492565 /* Text.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Text.h; sourceTree = "<group>"; };
+		A9D8713114E3071C00492565 /* Text.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Text.m; sourceTree = "<group>"; };
+		A9D8713414E3076800492565 /* Generator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Generator.h; sourceTree = "<group>"; };
+		A9D8713514E3076800492565 /* Generator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Generator.m; sourceTree = "<group>"; };
+		A9D8713814E307A000492565 /* Category.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Category.h; sourceTree = "<group>"; };
+		A9D8713914E307A000492565 /* Category.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Category.m; sourceTree = "<group>"; };
+		A9D8713C14E307C100492565 /* Content.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Content.h; sourceTree = "<group>"; };
+		A9D8713D14E307C100492565 /* Content.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Content.m; sourceTree = "<group>"; };
+		A9D8714014E3087000492565 /* Entry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Entry.h; sourceTree = "<group>"; };
+		A9D8714114E3087000492565 /* Entry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Entry.m; sourceTree = "<group>"; };
+		A9D8714414E309F900492565 /* Link.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Link.h; sourceTree = "<group>"; };
+		A9D8714514E309F900492565 /* Link.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Link.m; sourceTree = "<group>"; };
+		A9D8714814E30A2600492565 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		A9D8714914E30A2600492565 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		A9D8715114E3D23000492565 /* AtomDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AtomDocument.h; sourceTree = "<group>"; };
+		A9D8715214E3D23000492565 /* AtomDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtomDocument.m; sourceTree = "<group>"; };
+		A9D8715514E3D2A600492565 /* AtomParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AtomParser.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A962233D14F77ABE001BA985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A962235514F77D9B001BA985 /* libAtomParser.a in Frameworks */,
+				A962234314F77ABE001BA985 /* SenTestingKit.framework in Frameworks */,
+				A962234614F77ABE001BA985 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D870DB14E3013C00492565 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D870E214E3013C00492565 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A962234714F77ABE001BA985 /* AtomParserTests */ = {
+			isa = PBXGroup;
+			children = (
+				A962234D14F77ABE001BA985 /* AtomParserTests.h */,
+				A962234E14F77ABE001BA985 /* AtomParserTests.m */,
+				A962234814F77ABE001BA985 /* Supporting Files */,
+			);
+			path = AtomParserTests;
+			sourceTree = "<group>";
+		};
+		A962234814F77ABE001BA985 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A962234914F77ABE001BA985 /* AtomParserTests-Info.plist */,
+				A962234A14F77ABE001BA985 /* InfoPlist.strings */,
+				A962235014F77ABE001BA985 /* AtomParserTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9D870D314E3013C00492565 = {
+			isa = PBXGroup;
+			children = (
+				A9D870E314E3013C00492565 /* AtomParser */,
+				A962234714F77ABE001BA985 /* AtomParserTests */,
+				A9D870E014E3013C00492565 /* Frameworks */,
+				A9D870DF14E3013C00492565 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A9D870DF14E3013C00492565 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9D870DE14E3013C00492565 /* libAtomParser.a */,
+				A962234114F77ABE001BA985 /* AtomParserTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9D870E014E3013C00492565 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9D870E114E3013C00492565 /* Foundation.framework */,
+				A962234214F77ABE001BA985 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9D870E314E3013C00492565 /* AtomParser */ = {
+			isa = PBXGroup;
+			children = (
+				A9D870EE14E3016E00492565 /* TouchXML */,
+				A9D8712714E3041800492565 /* AtomParser */,
+				A9D870E414E3013C00492565 /* Supporting Files */,
+			);
+			path = AtomParser;
+			sourceTree = "<group>";
+		};
+		A9D870E414E3013C00492565 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9D870E514E3013C00492565 /* AtomParser-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9D870EE14E3016E00492565 /* TouchXML */ = {
+			isa = PBXGroup;
+			children = (
+				A9D870EF14E301AE00492565 /* Creation */,
+				A9D870F414E301AE00492565 /* CXHTMLDocument.h */,
+				A9D870F514E301AE00492565 /* CXHTMLDocument.m */,
+				A9D870F614E301AE00492565 /* CXMLDocument_PrivateExtensions.h */,
+				A9D870F714E301AE00492565 /* CXMLDocument_PrivateExtensions.m */,
+				A9D870F814E301AE00492565 /* CXMLDocument.h */,
+				A9D870F914E301AE00492565 /* CXMLDocument.m */,
+				A9D870FA14E301AE00492565 /* CXMLElement_CreationExtensions.h */,
+				A9D870FB14E301AE00492565 /* CXMLElement_CreationExtensions.m */,
+				A9D870FC14E301AE00492565 /* CXMLElement_ElementTreeExtensions.h */,
+				A9D870FD14E301AE00492565 /* CXMLElement_ElementTreeExtensions.m */,
+				A9D870FE14E301AE00492565 /* CXMLElement.h */,
+				A9D870FF14E301AE00492565 /* CXMLElement.m */,
+				A9D8710014E301AE00492565 /* CXMLNamespaceNode.h */,
+				A9D8710114E301AE00492565 /* CXMLNamespaceNode.m */,
+				A9D8710214E301AE00492565 /* CXMLNode_PrivateExtensions.h */,
+				A9D8710314E301AE00492565 /* CXMLNode_PrivateExtensions.m */,
+				A9D8710414E301AE00492565 /* CXMLNode_XPathExtensions.h */,
+				A9D8710514E301AE00492565 /* CXMLNode_XPathExtensions.m */,
+				A9D8710614E301AE00492565 /* CXMLNode.h */,
+				A9D8710714E301AE00492565 /* CXMLNode.m */,
+				A9D8710814E301AE00492565 /* Tidy */,
+				A9D8710B14E301AE00492565 /* TouchXML.h */,
+			);
+			name = TouchXML;
+			sourceTree = "<group>";
+		};
+		A9D870EF14E301AE00492565 /* Creation */ = {
+			isa = PBXGroup;
+			children = (
+				A9D870F014E301AE00492565 /* CXMLDocument_CreationExtensions.h */,
+				A9D870F114E301AE00492565 /* CXMLDocument_CreationExtensions.m */,
+				A9D870F214E301AE00492565 /* CXMLNode_CreationExtensions.h */,
+				A9D870F314E301AE00492565 /* CXMLNode_CreationExtensions.m */,
+			);
+			path = Creation;
+			sourceTree = "<group>";
+		};
+		A9D8710814E301AE00492565 /* Tidy */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8710914E301AE00492565 /* CTidy.h */,
+				A9D8710A14E301AE00492565 /* CTidy.m */,
+			);
+			path = Tidy;
+			sourceTree = "<group>";
+		};
+		A9D8712714E3041800492565 /* AtomParser */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8714C14E3A7D000492565 /* Atom Elements */,
+				A9D870E614E3013C00492565 /* AtomParser.h */,
+				A9D8715514E3D2A600492565 /* AtomParser.m */,
+				A9D8715114E3D23000492565 /* AtomDocument.h */,
+				A9D8715214E3D23000492565 /* AtomDocument.m */,
+			);
+			name = AtomParser;
+			sourceTree = "<group>";
+		};
+		A9D8714C14E3A7D000492565 /* Atom Elements */ = {
+			isa = PBXGroup;
+			children = (
+				A9D8712C14E3053400492565 /* Feed.h */,
+				A9D8712D14E3053400492565 /* Feed.m */,
+				A9D8713014E3071C00492565 /* Text.h */,
+				A9D8713114E3071C00492565 /* Text.m */,
+				A9D8713414E3076800492565 /* Generator.h */,
+				A9D8713514E3076800492565 /* Generator.m */,
+				A9D8713814E307A000492565 /* Category.h */,
+				A9D8713914E307A000492565 /* Category.m */,
+				A9D8713C14E307C100492565 /* Content.h */,
+				A9D8713D14E307C100492565 /* Content.m */,
+				A9D8714014E3087000492565 /* Entry.h */,
+				A9D8714114E3087000492565 /* Entry.m */,
+				A9D8714414E309F900492565 /* Link.h */,
+				A9D8714514E309F900492565 /* Link.m */,
+				A9D8714814E30A2600492565 /* Person.h */,
+				A9D8714914E30A2600492565 /* Person.m */,
+			);
+			name = "Atom Elements";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		A9D870DC14E3013C00492565 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D8710C14E301AE00492565 /* CXMLDocument_CreationExtensions.h in Headers */,
+				A9D8710E14E301AE00492565 /* CXMLNode_CreationExtensions.h in Headers */,
+				A9D8711014E301AE00492565 /* CXHTMLDocument.h in Headers */,
+				A9D8711214E301AE00492565 /* CXMLDocument_PrivateExtensions.h in Headers */,
+				A9D8711414E301AE00492565 /* CXMLDocument.h in Headers */,
+				A9D8711614E301AE00492565 /* CXMLElement_CreationExtensions.h in Headers */,
+				A9D8711814E301AE00492565 /* CXMLElement_ElementTreeExtensions.h in Headers */,
+				A9D8711A14E301AE00492565 /* CXMLElement.h in Headers */,
+				A9D8711C14E301AE00492565 /* CXMLNamespaceNode.h in Headers */,
+				A9D8711E14E301AE00492565 /* CXMLNode_PrivateExtensions.h in Headers */,
+				A9D8712014E301AE00492565 /* CXMLNode_XPathExtensions.h in Headers */,
+				A9D8712214E301AE00492565 /* CXMLNode.h in Headers */,
+				A9D8712414E301AE00492565 /* CTidy.h in Headers */,
+				A9D8712614E301AE00492565 /* TouchXML.h in Headers */,
+				A9D8712E14E3053400492565 /* Feed.h in Headers */,
+				A9D8713214E3071C00492565 /* Text.h in Headers */,
+				A9D8713614E3076800492565 /* Generator.h in Headers */,
+				A9D8713A14E307A000492565 /* Category.h in Headers */,
+				A9D8713E14E307C100492565 /* Content.h in Headers */,
+				A9D8714214E3087000492565 /* Entry.h in Headers */,
+				A9D8714614E309FA00492565 /* Link.h in Headers */,
+				A9D8714A14E30A2600492565 /* Person.h in Headers */,
+				A9D8715314E3D23000492565 /* AtomDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A962234014F77ABE001BA985 /* AtomParserTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A962235314F77ABE001BA985 /* Build configuration list for PBXNativeTarget "AtomParserTests" */;
+			buildPhases = (
+				A962233C14F77ABE001BA985 /* Sources */,
+				A962233D14F77ABE001BA985 /* Frameworks */,
+				A962233E14F77ABE001BA985 /* Resources */,
+				A962233F14F77ABE001BA985 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtomParserTests;
+			productName = AtomParserTests;
+			productReference = A962234114F77ABE001BA985 /* AtomParserTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+		A9D870DD14E3013C00492565 /* AtomParser */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9D870EB14E3013C00492565 /* Build configuration list for PBXNativeTarget "AtomParser" */;
+			buildPhases = (
+				A9D870DA14E3013C00492565 /* Sources */,
+				A9D870DB14E3013C00492565 /* Frameworks */,
+				A9D870DC14E3013C00492565 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AtomParser;
+			productName = AtomParser;
+			productReference = A9D870DE14E3013C00492565 /* libAtomParser.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9D870D514E3013C00492565 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Aarhus University";
+			};
+			buildConfigurationList = A9D870D814E3013C00492565 /* Build configuration list for PBXProject "AtomParser" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A9D870D314E3013C00492565;
+			productRefGroup = A9D870DF14E3013C00492565 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A9D870DD14E3013C00492565 /* AtomParser */,
+				A962234014F77ABE001BA985 /* AtomParserTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A962233E14F77ABE001BA985 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A962234C14F77ABE001BA985 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A962233F14F77ABE001BA985 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A962233C14F77ABE001BA985 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A962234F14F77ABE001BA985 /* AtomParserTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9D870DA14E3013C00492565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9D8710D14E301AE00492565 /* CXMLDocument_CreationExtensions.m in Sources */,
+				A9D8710F14E301AE00492565 /* CXMLNode_CreationExtensions.m in Sources */,
+				A9D8711114E301AE00492565 /* CXHTMLDocument.m in Sources */,
+				A9D8711314E301AE00492565 /* CXMLDocument_PrivateExtensions.m in Sources */,
+				A9D8711514E301AE00492565 /* CXMLDocument.m in Sources */,
+				A9D8711714E301AE00492565 /* CXMLElement_CreationExtensions.m in Sources */,
+				A9D8711914E301AE00492565 /* CXMLElement_ElementTreeExtensions.m in Sources */,
+				A9D8711B14E301AE00492565 /* CXMLElement.m in Sources */,
+				A9D8711D14E301AE00492565 /* CXMLNamespaceNode.m in Sources */,
+				A9D8711F14E301AE00492565 /* CXMLNode_PrivateExtensions.m in Sources */,
+				A9D8712114E301AE00492565 /* CXMLNode_XPathExtensions.m in Sources */,
+				A9D8712314E301AE00492565 /* CXMLNode.m in Sources */,
+				A9D8712514E301AE00492565 /* CTidy.m in Sources */,
+				A9D8712F14E3053400492565 /* Feed.m in Sources */,
+				A9D8713314E3071C00492565 /* Text.m in Sources */,
+				A9D8713714E3076800492565 /* Generator.m in Sources */,
+				A9D8713B14E307A000492565 /* Category.m in Sources */,
+				A9D8713F14E307C100492565 /* Content.m in Sources */,
+				A9D8714314E3087000492565 /* Entry.m in Sources */,
+				A9D8714714E309FA00492565 /* Link.m in Sources */,
+				A9D8714B14E30A2600492565 /* Person.m in Sources */,
+				A9D8715414E3D23000492565 /* AtomDocument.m in Sources */,
+				A9D8715614E3D2A600492565 /* AtomParser.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A962234A14F77ABE001BA985 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A962234B14F77ABE001BA985 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A962235114F77ABE001BA985 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtomParserTests/AtomParserTests-Prefix.pch";
+				INFOPLIST_FILE = "AtomParserTests/AtomParserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		A962235214F77ABE001BA985 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtomParserTests/AtomParserTests-Prefix.pch";
+				INFOPLIST_FILE = "AtomParserTests/AtomParserTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-lxml2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+		A9D870E914E3013C00492565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2/;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9D870EA14E3013C00492565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = /usr/include/libxml2/;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_LDFLAGS = "-lxml2";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9D870EC14E3013C00492565 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AtomParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtomParser/AtomParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = NO;
+			};
+			name = Debug;
+		};
+		A9D870ED14E3013C00492565 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/AtomParser.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AtomParser/AtomParser-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				TEST_AFTER_BUILD = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A962235314F77ABE001BA985 /* Build configuration list for PBXNativeTarget "AtomParserTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A962235114F77ABE001BA985 /* Debug */,
+				A962235214F77ABE001BA985 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D870D814E3013C00492565 /* Build configuration list for PBXProject "AtomParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D870E914E3013C00492565 /* Debug */,
+				A9D870EA14E3013C00492565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9D870EB14E3013C00492565 /* Build configuration list for PBXNativeTarget "AtomParser" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9D870EC14E3013C00492565 /* Debug */,
+				A9D870ED14E3013C00492565 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9D870D514E3013C00492565 /* Project object */;
+}
